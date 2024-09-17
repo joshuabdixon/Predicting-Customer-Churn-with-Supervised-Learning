@@ -3,9 +3,6 @@
 ## Project Overview
 This project utilises supervised learning models to predict student dropout rates using a dataset from an anonymised educational services provider. The analysis aims to identify key factors influencing student dropout, providing insights to enhance student retention.
 
-## Problem Statement
-High dropout rates can significantly impact educational institutions, leading to revenue loss, diminished reputation, and lower overall satisfaction. The objective of this analysis is to predict which students are most likely to drop out based on various factors, allowing for targeted interventions to improve retention rates.
-
 ## Methodology
 1. **Data Exploration:** Initial exploration to identify key features, followed by data cleaning, feature engineering, and preprocessing.
 2. **Feature Selection:** Two datasets were prepared:
