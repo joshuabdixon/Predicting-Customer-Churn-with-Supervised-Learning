@@ -27,9 +27,6 @@ This project utilises supervised learning models to predict student dropout rate
 - **Evaluation Metrics:** F1 score, accuracy, precision, recall, and AUC.
 - **Libraries:** `pandas`, `numpy`, `matplotlib`, `seaborn`, `scikit-learn`, `xgboost`, `tensorflow`, `keras-tuner`.
 
-## Parallels to Customer Churn in Other Sectors
-Predicting student dropout is similar to customer churn in sectors such as retail. Both involve analysing historical behaviours (e.g., attendance vs. usage frequency) to identify at-risk individuals. The recommendations derived here can be adapted to retention strategies in various industries.
-
 ## Data Overview
 The dataset contains 25,060 rows representing student records. Key features include:
 - **Age at Arrival**
