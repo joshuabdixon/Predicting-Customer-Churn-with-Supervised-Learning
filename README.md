@@ -21,12 +21,12 @@ High dropout rates can have a significant impact on educational institutions, le
 - **Centre Name:** Location plays a significant role, indicating the impact of different resources, support systems, and demographics across centres.
 - Adding 'AttendancePercentage' and 'ContactHours' notably improved model performance, highlighting their importance in predicting dropout rates.
 
-## Statistical Techniques and Libraries
+## Techniques and Libraries
 - **Supervised Learning Models:** XGBoost and Neural Network (TensorFlow/Keras).
 - **Evaluation Metrics:** F1 score, accuracy, precision, recall, and AUC.
 - **Libraries:** `pandas`, `numpy`, `matplotlib`, `seaborn`, `scikit-learn`, `xgboost`, `tensorflow`, `keras-tuner`.
 
-## Why focus on F1 Score Over Accuracy?
+## Why Focus on F1 Score Over Accuracy?
 The dataset used in this project is highly imbalanced, with significantly more students completing their courses than dropping out. In such cases, accuracy can be misleading, as a model predicting all students as "not dropping out" would still yield high accuracy due to the majority class. 
 
 The **F1 score** was chosen as the key evaluation metric because it provides a better balance between precision and recall. This metric is particularly useful when the cost of false positives (predicting a student will drop out when they won't) and false negatives (missing an actual dropout) is high. By focusing on the F1 score, the model is optimised to correctly identify students at risk of dropping out without being overly influenced by the majority class.
